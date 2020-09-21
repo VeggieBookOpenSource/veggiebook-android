@@ -1,0 +1,100 @@
+ext {
+    var = '/Users/danieldipasquo/Dropbox (Personal)/debug.keystore'
+}
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file(var)
+        }
+    }
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.veggiebook"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 98
+        versionName "1.27"
+    }
+
+    lintOptions {
+        checkReleaseBuilds true
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    flavorDimensions "version"
+    productFlavors {
+        printing {
+            applicationId "com.veggiebook"
+            buildConfigField "boolean", "CHOOSE_EXTRAS", "true"
+            buildConfigField "boolean", "PRINT_AT_PANTRY", "true"
+            buildConfigField "boolean", "ALWAYS_CHOOSE_ACCOUNT", "true"
+            buildConfigField "String", "WEB_SERVICES_HOST", "\"www.veggiebook.mobi\""
+            dimension "version"
+        }
+        mff {
+            applicationId "com.veggiebook.mff"
+            buildConfigField "boolean", "CHOOSE_EXTRAS", "false"
+            buildConfigField "boolean", "PRINT_AT_PANTRY", "false"
+            buildConfigField "boolean", "ALWAYS_CHOOSE_ACCOUNT", "false"
+            buildConfigField "String", "WEB_SERVICES_HOST", "\"mff.veggiebook.mobi\""
+            dimension "version"
+
+        }
+        chicago {
+            applicationId "com.veggiebook.chicago"
+            buildConfigField "boolean", "CHOOSE_EXTRAS", "true"
+            buildConfigField "boolean", "PRINT_AT_PANTRY", "true"
+            buildConfigField "boolean", "ALWAYS_CHOOSE_ACCOUNT", "true"
+            buildConfigField "String", "WEB_SERVICES_HOST", "\"chicago.veggiebook.mobi\""
+            dimension "version"
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro',
+                    'proguard-rules-debug.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    'proguard-rules.pro',
+                    'proguard-rules-debug.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'commons-io:commons-io:2.4'
+    //compile 'com.google.android.gms:play-services:8.4.0'
+    implementation 'com.google.android.gms:play-services-identity:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.j256.ormlite:ormlite-core:4.48'
+    implementation 'com.j256.ormlite:ormlite-android:4.48'
+    implementation 'org.roboguice:roboguice:3.0'
+    compileOnly 'org.roboguice:roboblender:3.0.1'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'org.slf4j:slf4j-api:1.7.21'
+    implementation 'com.github.tony19:logback-android-core:1.1.1-5'
+    implementation ('com.github.tony19:logback-android-classic:1.1.1-5') {
+        // workaround issue #73
+        exclude group: 'com.google.android', module: 'android'
+    }
+    implementation 'com.google.code.findbugs:jsr305:1.3.9'
+    annotationProcessor 'org.roboguice:roboblender:3.0.1'
+}

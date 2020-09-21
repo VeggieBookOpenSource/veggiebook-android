@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        style="@style/ProgressBarVeggieThemeLight"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <WebView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/webView"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:padding="2sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/press_next"
+            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="230dp"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#417133"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/downarrow"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15px"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

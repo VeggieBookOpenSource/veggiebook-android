@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:minWidth="1000sp"
+    android:minHeight="1000sp"
+    style="@android:style/Theme.Holo.Light.NoActionBar"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_positive"
+        android:baselineAlignBottom="true"
+        android:scaleType="centerInside"
+        android:contextClickable="false"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="150sp" />
+    <TextView
+        android:paddingTop="60sp"
+        android:paddingLeft="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/brought_to_you_by"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/mff_blue"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:paddingTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cobranding"
+        android:layout_gravity="center"
+        android:src="@drawable/cobranding_logo"
+        android:baselineAlignBottom="false"
+        />
+
+</LinearLayout>

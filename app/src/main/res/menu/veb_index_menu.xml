@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_share"
+          android:title="@string/share"
+          android:showAsAction="ifRoom"
+          android:actionProviderClass="android.widget.ShareActionProvider" />
+    <item android:id="@+id/menu_edit"
+          android:title="@string/edit"
+          android:icon="@drawable/ic_action_edit"
+          android:showAsAction="never" />
+    <item android:id="@+id/download_pdf"
+          android:title="@string/download_pdf"
+          android:showAsAction="never" />
+    <item android:id="@+id/menu_print"
+          android:title="@string/print_to_pantry"
+          android:icon="@drawable/ic_action_ic_menu_print"
+          android:showAsAction="never" />
+
+</menu>

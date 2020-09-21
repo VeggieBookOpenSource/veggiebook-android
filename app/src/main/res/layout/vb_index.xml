@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/created_by_format"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:baselineAligned="false">
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/gridView"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:background="#FFFFFF"
+                  android:headerDividersEnabled="false"
+                  android:layout_weight=".3"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".7"
+            android:padding="2sp"
+            android:layout_gravity="center"
+            android:id="@+id/webLayout">
+
+            <ProgressBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar"
+                style="@style/ProgressBarVeggieThemeLight"
+                />
+
+            <WebView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/webView"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Drop Shadow Stack -->
+<item android:drawable="@android:drawable/dialog_holo_light_frame">
+    <bitmap android:top="40dp" android:src="@android:drawable/dialog_holo_light_frame"/>
+
+</item>
+<item   android:drawable="@android:drawable/dialog_holo_light_frame">
+
+</item>
+
+</layer-list>

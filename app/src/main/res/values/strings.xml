@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VeggieBook</string>
+    <string name="menu_settings">Change System Language</string>
+    <string name="subtitle">Quick! Help for Meals</string>
+    <string name="new_veggie_book">Create New VeggieBook</string>
+    <string name="select_veggiebook">Select VeggieBook</string>
+    <string name="select_secretsbook">Choose the Secrets You Want</string>
+    <string name="previous">previous</string>
+    <string name="next">next</string>
+    <string name="select_pantry_question">Select your food pantry</string>
+    <string name="select_pantry_default">--- select pantry ---</string>
+    <string name="create_veggiebook">SUBMIT</string>
+    <string name="select_multiple_sub">CHECK ALL THAT APPLY</string>
+    <string name="included">KEEP</string>
+    <string name="excluded">DROP</string>
+    <string name="included_masc">KEEP</string>
+    <string name="excluded_masc">DROP</string>
+    <string name="mff_non_discrimination">Non-Discrimination Statement</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="mff_non_discrimination_url">https://mff.veggiebook.mobi/static/mff-nd-en.html</string>
+    <string name="privacy_policy_url">https://www.veggiebook.mobi/privacyPolicy/</string>
+
+    <!--these are used together for "Print 2 extra copies." or "Print 1 extra copy.-->
+    <!--If this will not work for spanish, let me know, I will figure something out.-->
+    <string name="print">Print</string>
+    <string name="extra_copies">extra copies.</string>
+    <string name="extra_copy">extra copy.</string>
+    <string-array name="extra_copies">
+        <item>0 extra copies</item>
+        <item>1 extra copy</item>
+        <item>2 extra copies</item>
+        <item>3 extra copies</item>
+    </string-array>
+
+    <string name="loading">Uploading</string>
+    <string name="loading_now">Loading…</string>
+    <string name="uploading_message">Uploading your picture…</string>
+
+    <string name="select_cover">Now, choose the cover for your VeggieBook.
+    </string>
+    <string name="creating_veggiebook">Creating Your VeggieBook!!</string>
+    <string name="creating_secretsbook">Creating Your Secrets Book!!</string>
+
+    <string name="connection_error_title">Internet Connection Error</string>
+    <string name="connection_error_message">Cannot connect to VeggieBook!</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="logging_in">Logging in to VeggieBook.</string>
+    <string name="welcome">Welcome to VeggieBook, %s.</string>
+    <string name="log_out">Switch User</string>
+    <string name="choose_image">Use your own photo:</string>
+    <string name="use_ours">Or, choose a picture from below</string>
+
+    <!--example: tips for Broccoli-->
+    <string name="tips_for_format">Tips for %s</string>
+    <string name="created_by_format">Recipes and Tips Chosen by %s</string>
+    <string name="complete_action_by">Complete action using</string>
+    <string name="choose_cover_directive">The Cover For Your Printed VeggieBook</string>
+    <string name="choose_cover_image">Change Image</string>
+
+    <!--Menu titles-->
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete VeggieBook</string>
+    <string name="print_to_pantry">Print at Food Pantry</string>
+    <string name="download_pdf">Download Pdf</string>
+    <string name="select_pantry">Food Pantry Settings</string>
+
+    <!--Format for sharing veggiebook-->
+    <string name="subject_share_recipe">VeggieBook: %s"</string>
+    <string name="format_share_recipe">
+        I created a %1$s VeggieBook, and it has some great recipes and tips.
+
+        I thought you would like this recipe for %2$s.
+        Check it out here: %3$s\n
+
+
+    </string>
+    <string name="subject_share_tips">VeggieBook: %s Tips"</string>
+    <string name="format_share_tips">
+        I created a %1$s VeggieBook, and it has some great recipes and tips. \n\n
+
+        I thought you would find these tips helpful.\n
+        Check it out here: %2$s\n
+
+
+    </string>
+    <string name="subject_share_secret">Secrets to Better Eating: %s"</string>
+    <string name="format_share_secret">
+        I found some great %1$s, and thought you would find these ideas
+        helpful.\n\n
+        Check it out here:  %2$s.\n
+
+
+    </string>
+    <string name="pdf_downloaded">Pdf download complete.</string>
+    <string name="congrats">Congratulations</string>
+    <string name="you_have_created">You have created a new VeggieBook!</string>
+    <string name="print_ad">… but VeggieBooks are even better printed out.</string>
+    <string name="print_button">Print at Food Pantry</string>
+    <string name="download_pdf_print">Download PDF to Print</string>
+    <string name="browse_on_device">View VeggieBook on Phone</string>
+    <string name="Close">Close</string>
+    <string name="if_pantry_client">If you are a client of a food pantry:</string>
+    <string name="if_have_printer">If you have your own printer:</string>
+    <string name="if_not_print_now">To continue without printing:</string>
+    <string name="print_later">(you can always print it later)</string>
+    <string name="download_failed">Download Failed.</string><string name="print_at">Print At:</string>
+    <string name="secrets">Create New Secrets Book</string>
+    <string name="print_complete">Printing at Pantry.</string>
+    <string name="veggiebook_printing">Printing…</string>
+    <string name="print_not_available">"Printing Not Available"</string>
+    <string name="secretsbook_printing">Your Secrets Book is Printing!</string>
+
+    <string name="keep_instruction">To Keep this recipe: leave this switch on KEEP.</string>
+    <string name="drop_instruction">You can KEEP or DROP a recipe.</string><string name="extra_instruction">You can print out EXTRA copies to give to family and friends</string>
+    <string name="dropped">DROPPED</string><string name="press_to_continue">Press Anywhere to Continue</string>
+    <string name="share_question_instructions">You can print an EXTRA COPY of any recipe to give to family or friends.\n\nJust touch a recipe for an EXTRA COPY.</string>
+    <string name="share_question_instructions_secret">You can print an EXTRA COPY of any Secret to give to family or friends.\n\nJust touch a Secret for an EXTRA COPY.</string>
+    <string name="camera_button">Take a photo now</string><string name="gallery_button">Use a photo from my phone</string>
+    <string name="press_next">Press NEXT below to continue</string>
+    <string name="who_says_so">Hi, I’m Maria.  I’m a nurse, but also a Mom with two children, 10 and 14.\n\n
+        Each Secret has been Mom-tested.  Other families, just like yours, use these Secrets to improve eating and meals with their families.  And, studies by University researchers agree that these Secrets really work!\n\n
+        These Secrets are small, simple steps that you can take.  And, these Secrets will bring BIG rewards in better eating right away.  Secrets don’t cost money; in fact, they save you money.\n\n
+        Secrets make meal times and snacks happier, reduce over-eating, and help you save time and money when buying food.</string><string name="who_says_so_button">Who Says So?</string>
+    <string name="enable_secrets">Enable Secrets (beta) </string>
+    <string name="disable_secrets">Disable Secrets (beta)</string>
+    <string name="select_cover_secret">Now, choose the cover for your Secrets Book.</string>
+    <string name="no_printers">No Printers Available</string><string name="rotate_right">Rotate Right</string><string name="rotate_left">Rotate Left</string><string name="discard">Discard</string><string name="save">Save</string>
+    <string name="web_services_host">www.veggiebook.mobi</string>
+
+
+</resources>

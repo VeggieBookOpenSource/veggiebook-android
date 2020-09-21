@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_background">#AA6AB51A</color>
+    <color name="screen_overlay">#ffecffe4</color>
+    <color name="overlay_text_primary">#000000</color>
+    <color name="overlay_secondary">#ff157018</color>
+    <color name="mff_blue">#1939dc</color>
+</resources>

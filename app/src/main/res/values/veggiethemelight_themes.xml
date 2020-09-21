@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="VeggieThemeLight" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTextVeggieThemeLight</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewVeggieThemeLight</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxVeggieThemeLight</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonVeggieThemeLight</item>
+
+    <item name="android:buttonStyle">@style/ButtonVeggieThemeLight</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonVeggieThemeLight</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerVeggieThemeLight</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerVeggieThemeLight.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemVeggieThemeLight</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarVeggieThemeLight</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarVeggieThemeLight</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarVeggieThemeLight</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigVeggieThemeLight</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallVeggieThemeLight</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleVeggieThemeLight</item>
+
+    <item name="android:listViewStyle">@style/ListViewVeggieThemeLight</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewVeggieThemeLight.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemVeggieThemeLight</item>
+
+  </style>
+
+</resources>

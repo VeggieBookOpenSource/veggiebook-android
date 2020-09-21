@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/change_language"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+    <item
+        android:id="@+id/non_descrimination"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/mff_non_discrimination"/>
+
+    <item
+        android:id="@+id/privacy_policy"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/mff_non_discrimination"/>
+
+
+
+</menu>

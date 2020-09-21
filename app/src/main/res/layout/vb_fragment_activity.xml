@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_veggie_book"
+        android:id="@+id/button"
+        android:layout_marginTop="6dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/secrets"
+        android:id="@+id/button1"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="6dp"/>
+
+    <fragment android:name="com.veggiebook.android.fragment.MyBooksFragment"
+              android:id="@+id/list"
+              android:layout_width="fill_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"/>
+
+
+</LinearLayout>

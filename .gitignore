@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+.idea
+.DS_Store
+/build
+/captures
+VeggieBook/gen/**
+VeggieBookTest/gen/**
+bin/**
+google-play-services_lib/**
+app/*.apk
+app/*/release

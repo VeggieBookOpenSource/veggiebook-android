@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#ffffff"
+              android:minWidth="1000sp"
+              android:minHeight="1000sp"
+              style="@android:style/Theme.Holo.Light.NoActionBar">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_positive"
+        android:baselineAlignBottom="true"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"/>
+
+
+
+</LinearLayout>

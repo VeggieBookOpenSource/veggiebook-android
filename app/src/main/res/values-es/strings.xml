@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">VeggieBook</string>
+    <string name="menu_settings">Configuración de idioma</string>
+    <string name="subtitle">¡Sabroso! Recetas y Sugerencias</string>
+    <string name="new_veggie_book">Crear un VeggieBook Nuevo</string>
+    <string name="select_veggiebook">Seleccione una Verdura</string>
+    <string name="select_secretsbook">Elegir una clase de Secretos</string>
+    <string name="previous">anterior</string>
+    <string name="next">siguiente</string>
+    <string name="select_pantry_question">Seleccione su Banco/Despensa de Alimentos</string>
+    <string name="select_pantry_default">--- Seleccione el Banco ---</string>
+    <string name="create_veggiebook">Oprima Aqui</string>
+    <string name="select_multiple_sub">MARQUE/ESCOJA TODO LO QUE APLIQUE </string>
+    <string name="included">LA QUIERO</string>
+    <string name="excluded">NO LA QUIERO</string>
+    <string name="included_masc">LO QUIERO</string>
+    <string name="excluded_masc">NO LO QUIERO</string>
+    <string name="mff_non_discrimination">Declaración de No Descrimination</string>
+    <string name="mff_non_discrimination_url">https://mff.veggiebook.mobi/static/mff-nd-es.html</string>
+
+
+    <string name="print">Imprimir</string>
+    <string name="extra_copies">copias extras.</string>
+    <string name="extra_copy">copia extra.</string>
+    <string-array name="extra_copies">
+    <item>0 copias extras</item>
+    <item>1 copia extra</item>
+    <item>2 copias extras</item>
+    <item>3 copias extras</item>
+</string-array>
+
+    <string name="loading">cargar/subir</string>
+    <string name="uploading_message">Cargando/Subiendo su foto…</string>
+
+    <string name="select_cover">Ahora escoja la portada para su VeggieBook.</string>
+    <string name="creating_veggiebook">¡Preparando su VeggieBook!</string>
+    <string name="creating_secretsbook">¡Preparando su Libro de Secretos!</string>
+    <string name="connection_error_title">Error de Conexión en el Servicio de Internet</string>
+    <string name="connection_error_message">¡No se puede establecer conexión a VeggieBook!</string>
+    <string name="retry">Intentar de Nuevo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="logging_in">Iniciar Sesión en VeggieBook.</string>
+    <string name="loading_now">Cargando…</string>
+    <string name="welcome">Bienvenido a VeggieBook, %s.</string>
+    <string name="log_out">Terminar Sesión</string>
+    <string name="choose_image">Use su propia fotografía:</string>
+    <string name="use_ours">O escoja una de las fotos abajo</string>
+    <string name="choose_cover_image">Cambiar La Portada</string>
+
+    <string name="tips_for_format">Sugerencias/Consejos para %s</string>
+    <string name="created_by_format">Recetas y Sugerencias Elegidas por %s</string>
+
+    <string name="edit">Modifique</string>
+    <string name="share">Compartalo</string>
+    <string name="delete">Eliminelo</string>
+    <string name="print_to_pantry">Imprima En La Despensa</string>
+    <string name="download_pdf">Bajar Pdf</string>
+    <string name="select_pantry">Ajustes De La Despensa</string>
+
+    <!--Format for sharing veggiebook-->
+    <string name="subject_share_recipe">VeggieBook: %s"</string>
+    <string name="format_share_recipe">He creado un VeggieBook de %1$s que tiene unas recetas y consejos excelentes, y pensé que a ti te gustaría esta receta de %2$s.
+
+        Échale un vistazo en: %3$s\n</string>
+    <string name="subject_share_tips">VeggieBook: Consejos para %s"</string>
+    <string name="format_share_tips">He creado un VeggieBook de %1$s, el cual tiene unas excelentes recetas y consejos y pensé que tu encontrarías estos consejos muy útiles.\n  Échale un vistazo aquí: %2$s\n</string>
+    <string name="subject_share_secret">Secretos: %s"</string>
+    <string name="format_share_secret">Encontré unos %1$s, y pensé que tú encontrarías estas ideas útiles. \n\nÉchales un vistazo aquí: %2$s.\n</string>
+    <string name="congrats">¡Felicidades!</string>
+    <string name="you_have_created">¡Usted a creado un VeggieBook nuevo!</string>
+    <string name="print_ad">… pero los VeggieBooks son todavía mejores cuando se imprimen.</string>
+    <string name="print_button">Imprima En La Dispensa</string>
+    <string name="download_pdf_print">Bajar PDF</string>
+    <string name="browse_on_device">Desplegar El VeggieBook En El Teléfono</string>
+    <string name="Close">Close</string>
+    <string name="if_pantry_client">Si usted es cliente de una despensa de alimentos:</string>
+    <string name="if_have_printer">If you have your own printer:</string>
+    <string name="if_not_print_now">Para continuar sin imprimir:</string>
+    <string name="print_later">(de todas maneras se puede imprimir en otra ocasión)</string>
+    <string name="download_failed">Download Failed.</string>
+    <string name="print_at">Imprima en:</string>
+    <string name="secrets">Crear un Libro de Secretos</string>
+    <string name="print_complete">Printing at Pantry.</string>
+    <string name="choose_cover_directive">La Portada Para Su VeggieBook Impreso.</string>
+    <string name="veggiebook_printing">Imprimiendo…</string>
+    <string name="print_not_available">"Imprimir No Disponible"</string>
+
+    <string name="secretsbook_printing">¡Su Libro de Secretos se está imprimiendo!</string>
+
+    <string name="drop_instruction">Para eliminar una receta, cambie la asignación de ESCOGER a DESECHAR.</string>
+    <string name="extra_instruction">También puede imprimir copias EXTRAS si desea compartirlas</string>
+    <string name="dropped">DROPPED</string><string name="press_to_continue">Tocar Para Continuar</string>
+    <string name="share_question_instructions">Usted puede imprimir una COPIA EXTRA de cualquier receta para dársela a familiares o amigos.\n\nSolo seleccione las recetas de las que quiera una COPIA EXTRA.</string>
+    <string name="share_question_instructions_secret">Usted puede imprimir un COPIA EXTRA de cualquier secreto para dárselo a familiares o amigos.\n\nSolo seleccione los secretos de los que quiera una COPIA EXTRA.</string>
+
+    <string name="camera_button">Tome una foto ahora</string>
+    <string name="gallery_button">Use una foto ya archivada en su teléfono</string><string name="press_next">Pulse SIGUIENTE abajo para continuar.</string>
+    <string name="who_says_so">Hola, me llamo Maria y soy una enfermera, pero también una mamá con 2 hijos, uno de 10 y otro de 14 años.\n\n
+
+        Cada Secreto ha sido puesto a prueba por mamás como usted. Otras familias, como la suya, usan estos Secretos para mejorar su alimentación y comidas con sus familias. Así mismo, estudios conducidos por investigadores universitarios concuerdan que ¡estos Secretos realmente funcionan!\n\n
+
+        Estos Secretos son pasos chicos y sencillos que usted puede tomar. Y, de inmediato estos Secretos le traerán GRANDES beneficios a través de una mejor alimentación. Estos Secretos no cuestan nada, al contrario, ellos le ahorrarán dinero.\n\n
+
+        Secretos hacen las horas de comida y bocadillos más felices, reducen el exceso de comer, y la ayudan a ahorrar tiempo y dinero a la hora de comprar la comida.</string>
+
+    <string name="who_says_so_button">¿Quién lo dice?</string>
+    <string name="enable_secrets">Enable Secrets to Better Eating (beta)</string>
+    <string name="select_cover_secret">Ahora escoja la portada para su Libro de Secretos.</string>
+    <string name="no_printers">No Se Disponible</string>
+    <string name="rotate_right">Girar a la Derecha</string><string name="rotate_left">Girar a la Izquierda</string><string name="discard">Desechar</string><string name="save">Guardar</string>
+
+
+</resources>

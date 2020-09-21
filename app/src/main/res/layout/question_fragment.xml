@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionText"
+        android:layout_gravity="center|left"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="left"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="3sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="3sp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subQuestionText"
+        android:singleLine="true"
+        android:textStyle="italic"
+        android:textColor="#08b509"
+        android:layout_gravity="top"
+        android:layout_marginLeft="35sp"
+        android:shadowColor="#05690c"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginLeft="35sp"
+        android:layout_marginBottom="10sp">
+        <LinearLayout
+                    android:id="@+id/questionForm"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|top"
+                    android:dividerPadding="@dimen/select_text_height">
+
+       </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
